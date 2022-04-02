@@ -1,4 +1,5 @@
-# proyectos-react <img src="logo-react.svg" height="50"/>
+<center><img src="logo-react.svg" height="50"/></center>
+# proyectos-react 
 Proyectos de aprendizaje con React.js siguiendo [este tutorial][tutorial] de freeCodeCamp.
 
 * testimonios: Clon testimonios freeCodeCamp
