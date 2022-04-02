@@ -4,8 +4,9 @@
 
 Proyectos de aprendizaje con React.js siguiendo [este tutorial][tutorial] de freeCodeCamp.
 
-* testimonios: Clon testimonios freeCodeCamp
+* testimonios
 * contador-clicks
 * calculadora
+* tareas
 
  [tutorial]: https://youtu.be/6Jfk8ic3KVk
