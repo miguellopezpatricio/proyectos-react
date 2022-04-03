@@ -9,7 +9,7 @@ function TareaFormulario(props){
 
     const manejarCambio = e => {
         setInput(e.target.value);
-        console.log(e.target.value);
+      //  console.log(e.target.value);
 
     }
 
@@ -19,10 +19,13 @@ function TareaFormulario(props){
 
         const tareaNueva = {
             /* instalar paquete uuid para generar id: npm install uuid */
-            id: '34545',
+            id: uuidv4(),
             texto: input,
             completada: false
         }
+
+       // console.log(tareaNueva);
+       props.onSubmit(tareaNueva);
 
     }
 
