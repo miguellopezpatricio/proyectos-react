@@ -11,6 +11,15 @@ html, body{
   font-family: Lato, sans-serif;
 }
 
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+
+}
+
 .aplicacion-tareas{
   display: flex;
   flex-wrap: wrap;
@@ -28,7 +37,7 @@ html, body{
 
 .freecodecamp-logo{
   width: 400px;
-  height: 50px;
+  height: 150px;
 }
 
 /* Lista de tareas */
