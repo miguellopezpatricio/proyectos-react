@@ -21,5 +21,5 @@ npm install uuid
  [tutorial]: https://youtu.be/6Jfk8ic3KVk
 
 ## ACTUALIZACIÓN:
-* Nueva versión de la app *testimonios* usando componentes de clase.
-* Nueva versión de la app *contador-clicks* usando componentes de clase.
+* Nueva versión de la app "testimonios" usando componentes de clase.
+* Nueva versión de la app "contador-clicks" usando componentes de clase.
