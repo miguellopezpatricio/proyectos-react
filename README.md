@@ -25,3 +25,10 @@ npm install uuid
 ### ACTUALIZACIÓN:
 * Nueva versión de la app ```testimonios``` usando componentes de clase.
 * Nueva versión de la app ```contador-clicks``` usando componentes de clase.
+
+### NOTA: Para errores de compilación.
+Se recomienda eliminar la carpeta **/node-modules** y los archivos de configuración **package-lock.json**
+A continuación ejecutar:
+1. **npm cache clear --force**
+2. **npm install**
+3. Y ya se puede arrancar el proyecto normalmente con **npm start**
