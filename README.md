@@ -27,6 +27,10 @@ npm install uuid
 siguiendo [este tutorial][tutorial2]
 
 [tutorial2]: https://youtu.be/5DAEdXKp7QA
+***TO-DO***
+* app-memes 
+* web-pelis
+* sistema-gest-material-firebase
 
 ### ACTUALIZACIÓN:
 * Nueva versión de la app ```testimonios``` usando componentes de clase.
