@@ -4,7 +4,8 @@
 
 * Portfolio en React.js
 
-## Proyectos de aprendizaje con React.js siguiendo [este tutorial][tutorial] de freeCodeCamp.
+## Proyectos de aprendizaje con React.js 
+siguiendo [este tutorial][tutorial] de freeCodeCamp.
 
 * testimonios
 * contador-clicks
@@ -21,6 +22,11 @@ npm install uuid
 ~~~
 
  [tutorial]: https://youtu.be/6Jfk8ic3KVk
+
+## Proyectos curso PRO de React.js 
+siguiendo [este tutorial][tutorial2]
+
+[tutorial]: https://youtu.be/5DAEdXKp7QA
 
 ### ACTUALIZACIÓN:
 * Nueva versión de la app ```testimonios``` usando componentes de clase.
