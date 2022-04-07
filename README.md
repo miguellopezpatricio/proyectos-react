@@ -26,7 +26,7 @@ npm install uuid
 ## Proyectos curso PRO de React.js 
 siguiendo [este tutorial][tutorial2]
 
-[tutorial]: https://youtu.be/5DAEdXKp7QA
+[tutorial2]: https://youtu.be/5DAEdXKp7QA
 
 ### ACTUALIZACIÓN:
 * Nueva versión de la app ```testimonios``` usando componentes de clase.
