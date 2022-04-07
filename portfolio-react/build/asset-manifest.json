@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06905fdf.chunk.css",
+    "main.js": "/static/js/main.c6196bdf.chunk.js",
+    "main.js.map": "/static/js/main.c6196bdf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eed1eee5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eed1eee5.js.map",
+    "static/css/2.d55d44d6.chunk.css": "/static/css/2.d55d44d6.chunk.css",
+    "static/js/2.598b9923.chunk.js": "/static/js/2.598b9923.chunk.js",
+    "static/js/2.598b9923.chunk.js.map": "/static/js/2.598b9923.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.d55d44d6.chunk.css.map": "/static/css/2.d55d44d6.chunk.css.map",
+    "static/css/main.06905fdf.chunk.css.map": "/static/css/main.06905fdf.chunk.css.map",
+    "static/js/2.598b9923.chunk.js.LICENSE.txt": "/static/js/2.598b9923.chunk.js.LICENSE.txt",
+    "static/media/mazaroca.fe6151f5.png": "/static/media/mazaroca.fe6151f5.png",
+    "static/media/mlpatri.fcbf18d1.jpg": "/static/media/mlpatri.fcbf18d1.jpg",
+    "static/media/video.6623cff6.m4v": "/static/media/video.6623cff6.m4v"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eed1eee5.js",
+    "static/css/2.d55d44d6.chunk.css",
+    "static/js/2.598b9923.chunk.js",
+    "static/css/main.06905fdf.chunk.css",
+    "static/js/main.c6196bdf.chunk.js"
+  ]
+}

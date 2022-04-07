@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import {Testimonio} from './componentes/Testimonio.jsx';
 
-
 class App extends React.Component{
   render(){
 
