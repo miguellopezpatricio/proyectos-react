@@ -29,6 +29,10 @@ siguiendo [este tutorial][tutorial2]
 [tutorial2]: https://youtu.be/5DAEdXKp7QA
 ***TO-DO***
 * app-memes 
+~~~
+npm install --save html2canvas
+~~~
+
 * web-pelis
 * sistema-gest-material-firebase
 
