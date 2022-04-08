@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Pelicula from './Pelicula';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div>
 
       <div id="preloader">
-    <img className="logo" src="images/logo1.png" alt="" width="119" height="58" />
+    <img className="logo" src="images/logo1.png" alt="" rel="noreferrer" width="119" height="58" />
     <div id="status">
         <span></span>
         <span></span>
@@ -16,9 +16,9 @@ function App() {
 
 <div className="login-wrapper" id="login-content">
     <div className="login-content">
-        <a href="#" className="close">x</a>
+        <a href="" rel="noreferrer" className="close">x</a>
         <h3>Login</h3>
-        <form method="post" action="#">
+        <form method="post" action="" rel="noreferrer">
         	<div className="row">
         		 <label for="username">
                     Username:
@@ -37,7 +37,7 @@ function App() {
 					<div>
 						<input type="checkbox" name="remember" value="Remember me" /><span>Remember me</span>
 					</div>
-            		<a href="#">Forget password ?</a>
+            		<a href="" rel="noreferrer">Forget password ?</a>
             	</div>
             </div>
            <div className="row">
@@ -47,8 +47,8 @@ function App() {
         <div className="row">
         	<p>Or via social</p>
             <div className="social-btn-2">
-            	<a className="fb" href="#"><i className="ion-social-facebook"></i>Facebook</a>
-            	<a className="tw" href="#"><i className="ion-social-twitter"></i>twitter</a>
+            	<a className="fb" href="" rel="noreferrer"><i className="ion-social-facebook"></i>Facebook</a>
+            	<a className="tw" href="" rel="noreferrer"><i className="ion-social-twitter"></i>twitter</a>
             </div>
         </div>
     </div>
@@ -56,9 +56,9 @@ function App() {
 
 <div className="login-wrapper"  id="signup-content">
     <div className="login-content">
-        <a href="#" className="close">x</a>
+        <a href="" rel="noreferrer" className="close">x</a>
         <h3>sign up</h3>
-        <form method="post" action="#">
+        <form method="post" action="" rel="noreferrer">
             <div className="row">
                  <label for="username-2">
                     Username:
@@ -69,19 +69,19 @@ function App() {
             <div className="row">
                 <label for="email-2">
                     your email:
-                    <input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                    <input type="password" name="email" id="email-2" placeholder="" rel="noreferrer" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
                 </label>
             </div>
              <div className="row">
                 <label for="password-2">
                     Password:
-                    <input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                    <input type="password" name="password" id="password-2" placeholder="" rel="noreferrer" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
                 </label>
             </div>
              <div className="row">
                 <label for="repassword-2">
                     re-type Password:
-                    <input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                    <input type="password" name="password" id="repassword-2" placeholder="" rel="noreferrer" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
                 </label>
             </div>
            <div className="row">
@@ -104,7 +104,7 @@ function App() {
 							<span></span>
 						</div>
 				    </div>
-				    <a href="index-2.html"><img className="logo" src="images/logo1.png" alt="" width="119" height="58" /></a>
+				    <a href="index-2.html"><img className="logo" src="images/logo1.png" alt="" rel="noreferrer" width="119" height="58" /></a>
 			    </div>
 
 				<div className="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
@@ -128,7 +128,7 @@ function App() {
 							</a>
 							<ul className="dropdown-menu level1">
 								<li className="dropdown">
-									<a href="#" className="dropdown-toggle" data-toggle="dropdown" >Movie grid<i className="ion-ios-arrow-forward"></i></a>
+									<a href="" rel="noreferrer" className="dropdown-toggle" data-toggle="dropdown" >Movie grid<i className="ion-ios-arrow-forward"></i></a>
 									<ul className="dropdown-menu level2">
 										<li><a href="moviegrid.html">Movie grid</a></li>
 										<li><a href="moviegridfw.html">movie grid full width</a></li>
@@ -183,9 +183,9 @@ function App() {
 								<li className="it-last"><a href="comingsoon.html">Coming soon</a></li>
 							</ul>
 						</li>                
-						<li><a href="#">Help</a></li>
-						<li className="loginLink"><a href="#">LOG In</a></li>
-						<li className="btn signupLink"><a href="#">sign up</a></li>
+						<li><a href="" rel="noreferrer">Help</a></li>
+						<li className="loginLink"><a href="" rel="noreferrer">LOG In</a></li>
+						<li className="btn signupLink"><a href="" rel="noreferrer">sign up</a></li>
 					</ul>
 				</div>
 	    </nav>
@@ -207,7 +207,7 @@ function App() {
 				<div className="hero-ct">
 					<h1> movie listing - list</h1>
 					<ul className="breadcumb">
-						<li className="active"><a href="#">Home</a></li>
+						<li className="active"><a href="" rel="noreferrer">Home</a></li>
 						<li> <span className="ion-ios-arrow-right"></span> movie listing</li>
 					</ul>
 				</div>
@@ -233,59 +233,51 @@ function App() {
 					<a href="movielist.html" className="list"><i className="ion-ios-list-outline active"></i></a>
 					<a  href="moviegrid.html" className="grid"><i className="ion-grid"></i></a>
 				</div>
+			
+      <Pelicula/>
+
 				<div className="movie-item-style-2">
-					<img src="images/uploads/mv1.jpg" alt="" />
-					<div className="mv-item-infor">
-						<h6><a href="moviesingle.html">oblivion <span>(2012)</span></a></h6>
-						<p className="rate"><i className="ion-android-star"></i><span>8.1</span> /10</p>
-						<p className="describe">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
-						<p className="run-time"> Run Time: 2h21’    .     <span>MMPA: PG-13 </span>    .     <span>Release: 1 May 2015</span></p>
-						<p>Director: <a href="#">Joss Whedon</a></p>
-						<p>Stars: <a href="#">Robert Downey Jr.,</a> <a href="#">Chris Evans,</a> <a href="#">  Chris Hemsworth</a></p>
-					</div>
-				</div>
-				<div className="movie-item-style-2">
-					<img src="images/uploads/mv2.jpg" alt="" />
+					<img src="images/uploads/mv2.jpg" alt="" rel="noreferrer" />
 					<div className="mv-item-infor">
 						<h6><a href="moviesingle.html">into the wild <span>(2014)</span></a></h6>
 						<p className="rate"><i className="ion-android-star"></i><span>7.8</span> /10</p>
 						<p className="describe">As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat...</p>
 						<p className="run-time"> Run Time: 2h21’    .     <span>MMPA: PG-13 </span>    .     <span>Release: 1 May 2015</span></p>
-						<p>Director: <a href="#">Anthony Russo,</a><a href="#">Joe Russo</a></p>
-						<p>Stars: <a href="#">Chris Evans,</a> <a href="#">Samuel L. Jackson,</a> <a href="#">  Scarlett Johansson</a></p>
+						<p>Director: <a href="" rel="noreferrer">Anthony Russo,</a><a href="" rel="noreferrer">Joe Russo</a></p>
+						<p>Stars: <a href="" rel="noreferrer">Chris Evans,</a> <a href="" rel="noreferrer">Samuel L. Jackson,</a> <a href="" rel="noreferrer">  Scarlett Johansson</a></p>
 					</div>
 				</div>
 				<div className="movie-item-style-2">
-					<img src="images/uploads/mv3.jpg" alt="" />
+					<img src="images/uploads/mv3.jpg" alt="" rel="noreferrer" />
 					<div className="mv-item-infor">
 						<h6><a href="moviesingle.html">blade runner  <span>(2015)</span></a></h6>
 						<p className="rate"><i className="ion-android-star"></i><span>7.3</span> /10</p>
 						<p className="describe">Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help...</p>
 						<p className="run-time"> Run Time: 2h21’    .     <span>MMPA: PG-13 </span>    .     <span>Release: 1 May 2015</span></p>
-						<p>Director: <a href="#">Peyton Reed</a></p>
-						<p>Stars: <a href="#">Paul Rudd,</a> <a href="#"> Michael Douglas</a></p>
+						<p>Director: <a href="" rel="noreferrer">Peyton Reed</a></p>
+						<p>Stars: <a href="" rel="noreferrer">Paul Rudd,</a> <a href="" rel="noreferrer"> Michael Douglas</a></p>
 					</div>
 				</div>
 				<div className="movie-item-style-2">
-					<img src="images/uploads/mv4.jpg" alt="" />
+					<img src="images/uploads/mv4.jpg" alt="" rel="noreferrer" />
 					<div className="mv-item-infor">
 						<h6><a href="moviesingle.html">Mulholland pride<span> (2013)  </span></a></h6>
 						<p className="rate"><i className="ion-android-star"></i><span>7.2</span> /10</p>
 						<p className="describe">When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
 						<p className="run-time"> Run Time: 2h21’    .     <span>MMPA: PG-13 </span>    .     <span>Release: 1 May 2015</span></p>
-						<p>Director: <a href="#">Shane Black</a></p>
-						<p>Stars: <a href="#">Robert Downey Jr., </a> <a href="#">  Guy Pearce,</a><a href="#">Don Cheadle</a></p>
+						<p>Director: <a href="" rel="noreferrer">Shane Black</a></p>
+						<p>Stars: <a href="" rel="noreferrer">Robert Downey Jr., </a> <a href="" rel="noreferrer">  Guy Pearce,</a><a href="" rel="noreferrer">Don Cheadle</a></p>
 					</div>
 				</div>
 				<div className="movie-item-style-2">
-					<img src="images/uploads/mv5.jpg" alt="" />
+					<img src="images/uploads/mv5.jpg" alt="" rel="noreferrer" />
 					<div className="mv-item-infor">
 						<h6><a href="moviesingle.html">skyfall: evil of boss<span> (2013)  </span></a></h6>
 						<p className="rate"><i className="ion-android-star"></i><span>7.0</span> /10</p>
 						<p className="describe">When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
 						<p className="run-time"> Run Time: 2h21’    .     <span>MMPA: PG-13 </span>    .     <span>Release: 1 May 2015</span></p>
-						<p>Director: <a href="#">Alan Taylor</a></p>
-						<p>Stars: <a href="#">Chris Hemsworth,  </a> <a href="#">  Natalie Portman,</a><a href="#">Tom Hiddleston</a></p>
+						<p>Director: <a href="" rel="noreferrer">Alan Taylor</a></p>
+						<p>Stars: <a href="" rel="noreferrer">Chris Hemsworth,  </a> <a href="" rel="noreferrer">  Natalie Portman,</a><a href="" rel="noreferrer">Tom Hiddleston</a></p>
 					</div>
 				</div>
 				<div className="topbar-filter">
@@ -296,9 +288,9 @@ function App() {
 					</select>
 					<div className="pagination2">
 						<span>Page 1 of 2:</span>
-						<a className="active" href="#">1</a>
-						<a href="#">2</a>
-						<a href="#"><i className="ion-arrow-right-b"></i></a>
+						<a className="active" href="" rel="noreferrer">1</a>
+						<a href="" rel="noreferrer">2</a>
+						<a href="" rel="noreferrer"><i className="ion-arrow-right-b"></i></a>
 					</div>
 				</div>
 			</div>
@@ -306,7 +298,7 @@ function App() {
 				<div className="sidebar">
 					<div className="searh-form">
 						<h4 className="sb-title">Search for movie</h4>
-						<form className="form-style-1" action="#">
+						<form className="form-style-1" action="" rel="noreferrer">
 							<div className="row">
 								<div className="col-md-12 form-it">
 									<label>Movie name</label>
@@ -316,8 +308,8 @@ function App() {
 									<label>Genres & Subgenres</label>
 									<div className="group-ip">
 										<select
-											name="skills" multiple="" className="ui fluid dropdown">
-											<option value="">Enter to filter genres</option>
+											name="skills" multiple="" rel="noreferrer" className="ui fluid dropdown">
+											<option value="" rel="noreferrer">Enter to filter genres</option>
 											<option value="Action1">Action 1</option>
 					                        <option value="Action2">Action 2</option>
 					                        <option value="Action3">Action 3</option>
@@ -366,18 +358,18 @@ function App() {
 						</form>
 					</div>
 					<div className="ads">
-						<img src="images/uploads/ads1.png" alt="" />
+						<img src="images/uploads/ads1.png" alt="" rel="noreferrer" />
 					</div>
 					<div className="sb-facebook sb-it">
 						<h4 className="sb-title">Find us on Facebook</h4>
-						<iframe src="#" data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftemplatespoint.net%2F%3Ffref%3Dts&tabs=timeline&width=340&height=315px&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"  height="315" style="width:100%;border:none;overflow:hidden" ></iframe>
+						<iframe src="" rel="noreferrer" data-src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftemplatespoint.net%2F%3Ffref%3Dts&tabs=timeline&width=340&height=315px&small_header=true&adapt_container_width=false&hide_cover=false&show_facepile=true&appId"  height="315" style="width:100%;border:none;overflow:hidden" ></iframe>
 					</div>
 					<div className="sb-twitter sb-it">
 						<h4 className="sb-title">Tweet to us</h4>
 						<div className="slick-tw">
-							<div className="tweet item" id="">
+							<div className="tweet item" id="" rel="noreferrer">
 							</div>
-							<div className="tweet item" id="">
+							<div className="tweet item" id="" rel="noreferrer">
 							</div>
 						</div>							
 					</div>
@@ -390,46 +382,46 @@ function App() {
 	<div className="container">
 		<div className="flex-parent-ft">
 			<div className="flex-child-ft item1">
-				 <a href="index-2.html"><img className="logo" src="images/logo1.png" alt="" /></a>
+				 <a href="index-2.html"><img className="logo" src="images/logo1.png" alt="" rel="noreferrer" /></a>
 				 <p>5th Avenue st, manhattan<br />
 				New York, NY 10001</p>
-				<p>Call us: <a href="#">(+01) 202 342 6789</a></p>
+				<p>Call us: <a href="" rel="noreferrer">(+01) 202 342 6789</a></p>
 			</div>
 			<div className="flex-child-ft item2">
 				<h4>Resources</h4>
 				<ul>
-					<li><a href="#">About</a></li> 
-					<li><a href="#">Blockbuster</a></li>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Forums</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Help Center</a></li>
+					<li><a href="" rel="noreferrer">About</a></li> 
+					<li><a href="" rel="noreferrer">Blockbuster</a></li>
+					<li><a href="" rel="noreferrer">Contact Us</a></li>
+					<li><a href="" rel="noreferrer">Forums</a></li>
+					<li><a href="" rel="noreferrer">Blog</a></li>
+					<li><a href="" rel="noreferrer">Help Center</a></li>
 				</ul>
 			</div>
 			<div className="flex-child-ft item3">
 				<h4>Legal</h4>
 				<ul>
-					<li><a href="#">Terms of Use</a></li> 
-					<li><a href="#">Privacy Policy</a></li>	
-					<li><a href="#">Security</a></li>
+					<li><a href="" rel="noreferrer">Terms of Use</a></li> 
+					<li><a href="" rel="noreferrer">Privacy Policy</a></li>	
+					<li><a href="" rel="noreferrer">Security</a></li>
 				</ul>
 			</div>
 			<div className="flex-child-ft item4">
 				<h4>Account</h4>
 				<ul>
-					<li><a href="#">My Account</a></li> 
-					<li><a href="#">Watchlist</a></li>	
-					<li><a href="#">Collections</a></li>
-					<li><a href="#">User Guide</a></li>
+					<li><a href="" rel="noreferrer">My Account</a></li> 
+					<li><a href="" rel="noreferrer">Watchlist</a></li>	
+					<li><a href="" rel="noreferrer">Collections</a></li>
+					<li><a href="" rel="noreferrer">User Guide</a></li>
 				</ul>
 			</div>
 			<div className="flex-child-ft item5">
 				<h4>Newsletter</h4>
 				<p>Subscribe to our newsletter system now <br /> to get latest news from us.</p>
-				<form action="#">
+				<form action="" rel="noreferrer">
 					<input type="text" placeholder="Enter your email..." />
 				</form>
-				<a href="#" className="btn">Subscribe now <i className="ion-ios-arrow-forward"></i></a>
+				<a href="" rel="noreferrer" className="btn">Subscribe now <i className="ion-ios-arrow-forward"></i></a>
 			</div>
 		</div>
 	</div>
@@ -438,7 +430,7 @@ function App() {
 			<p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
 		</div>
 		<div className="backtotop">
-			<p><a href="#" id="back-to-top">Back to top  <i className="ion-ios-arrow-thin-up"></i></a></p>
+			<p><a href="" rel="noreferrer" id="back-to-top">Back to top  <i className="ion-ios-arrow-thin-up"></i></a></p>
 		</div>
 	</div>
 </footer>
