@@ -46,3 +46,10 @@ A continuación ejecutar:
 1. **npm cache clear --force**
 2. **npm install**
 3. Y ya se puede arrancar el proyecto normalmente con **npm start**
+
+## Para llevar el proyecto React a producción:
+npm install (sino tenemos los node modules)
+npm run buid
+comprimimos los archivos de la carpeta build
+El resultado será lo que subamos al servidor y descomprimir
+
