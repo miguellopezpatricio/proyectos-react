@@ -6,9 +6,18 @@ function About() {
     return (
         <div className='about-container'>
             <div className='about-desc'>
-                <h3>Pequeña descripción sobre mi</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <h3>Sobre mi trabajo...</h3>
+                <p>Durante veinte años trabajé en un taller mecánico realizando diversas funciones:
+                    Desde mantenimiento de vehículos hasta tareas de gestión de la empresa (facturación, contabilidad, gestión de impuestos,…).</p>
+
+                <p>Con el tiempo, descubrí mi verdadera vocación: la programación. Luego de un período de estudios y preparación en el área de desarrollo web y aplicaciones informáticas me pasé a ser freelance.
                 </p>
+                <p>
+                    Durante el verano de 2021 realicé unas prácticas Erasmus+ en la Delegación de Cruz Vermelha en Braga (Portugal), como parte de mis estudios recientes de DAM, en las que realicé algunas aplicaciones internas en php y js. </p>
+
+                <p> Actualmente sigo como autónomo, desde hace unos tres años, y realizo diversos trabajos relacionados con mi profesión actual: webs en WordPress y aplicaciones de gestión.
+                </p>
+
             </div>
             <div className='about-img'>
                 <img src={mlpatri} alt='foto' />

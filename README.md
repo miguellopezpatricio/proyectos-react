@@ -2,7 +2,7 @@
 
 # Proyectos React.js 
 
-* Portfolio en React.js
+* Portfolio en React.js: https://youtu.be/lbKs9Yklz7o
 
 ## Proyectos de aprendizaje con React.js 
 siguiendo [este tutorial][tutorial] de freeCodeCamp.

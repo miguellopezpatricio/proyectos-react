@@ -4,7 +4,7 @@ import '@brainhubeu/react-carousel/lib/style.css'
 import Slides from './Slides'
 import './Slider.css'
 
-function Slider() {
+const Slider = ()=> {
     return (
         <div className='carousel-container'>
             <div className='carousel-title'>
@@ -13,7 +13,7 @@ function Slider() {
 
             <Carousel 
                 arrows
-                slidesPerPage={3}
+                slidesPerPage={4}
                 infinite
                 animationSpeed={200}
                 centered
@@ -28,10 +28,11 @@ function Slider() {
 
                     },
 
-                }}
+                }
+            }
                 />
         </div>
-    )
-}
+    );
+};
 
-export default Slider
+export default Slider;
