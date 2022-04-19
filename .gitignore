@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/portfolio-minimalista/node_modules
+/portfolio-minimalista/.env
+
+/nuevo-portfolio
