@@ -1,3 +1,0 @@
-# AgendaReact
-
-Nuevo proyecto react
